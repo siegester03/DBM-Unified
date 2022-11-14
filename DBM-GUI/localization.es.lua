@@ -269,6 +269,7 @@ L.BarStartColorPhase		= "Color inicial (fase)"
 L.BarEndColorPhase			= "Color final (fase)"
 L.BarStartColorUI			= "Color inicial (usuario)"
 L.BarEndColorUI				= "Color final (usuario)"
+L.BarBackgroundOpacity      = "Opacidad del fondo de la barra"
 --Type 7 options
 L.Bar7Header				= "Opciones de barras de usuario"
 L.Bar7ForceLarge			= "Usar siempre barras grandes"

@@ -114,6 +114,7 @@ DBT.DefaultOptions = {
 	Spark = true,
 	ColorByType = true,
 	NoBarFade = false,
+    BarBackgroundOpacity = 0.3,
 	InlineIcons = true,
 	IconLeft = true,
 	IconRight = false,
@@ -216,7 +217,7 @@ do
 		bar:SetStatusBarColor(1, 0.7, 0)
 		local background = bar:CreateTexture(nil, "BACKGROUND")
 		background:SetAllPoints()
-		background:SetColorTexture(0, 0, 0, 0.3)
+		background:SetColorTexture(0, 0, 0, DBT.Options.BarBackgroundOpacity)
 		local spark = bar:CreateTexture("$parentSpark", "OVERLAY")
 		spark:SetPoint("CENTER", bar, "CENTER")
 		spark:SetSize(32, 64)

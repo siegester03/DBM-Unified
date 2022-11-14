@@ -288,6 +288,7 @@ L.Slider_BarOffSetY 		= "Décalage Y : %d"
 L.Slider_BarWidth 			= "Largeur : %d"
 L.Slider_BarScale 			= "Échelle : %0.2f"
 L.BarSaturation				= "Saturation pour les petits décomptes (si les grandes barres sont désactivées) : %0.2f"
+L.BarBackgroundOpacity      = "Opacité de l'arrière-plan de la barre"
 
 --Types
 L.BarStartColorAdd			= "Initiale (Add)"

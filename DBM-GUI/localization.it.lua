@@ -175,6 +175,7 @@ L.ShortTimerText			= "Usa testo breve temporizzatore (se disponibile)"
 L.KeepBar					= "Mantieni temporizzatore attivo fino al cast"
 L.KeepBar2					= "(se supportato dalla mod)"
 L.FadeBar					= "Fai sparire temporizzatori per abilità fuori portata"
+L.BarBackgroundOpacity      = "Opacità dello sfondo della barrae"
 
 -- Tab: Spec Warn Frame
 L.Panel_SpecWarnFrame		= "Avvisi Speciali di Incursione"

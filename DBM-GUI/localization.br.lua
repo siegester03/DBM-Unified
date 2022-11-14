@@ -140,6 +140,7 @@ L.Bar_EnlargeTime			= "Barras aumentam abaixo deste tempo: %d"
 L.BarSpark					= "Barra faísca"
 L.BarFlash					= "Barra pisca quando estiver para expirar"
 L.BarSort					= "selecionar pelo tempo restante"
+L.BarBackgroundOpacity      = "Opacidade do plano de fundo da barra"
 
 
 -- Tab: Spec Warn Frame

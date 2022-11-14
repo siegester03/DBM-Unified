@@ -302,6 +302,7 @@ L.Slider_BarOffSetY 		= "Offset Y: %d"
 L.Slider_BarWidth 			= "Bar width: %d"
 L.Slider_BarScale 			= "Bar scale: %0.2f"
 L.BarSaturation				= "Bar saturation for small timers (When huge bars are disabled): %0.2f"
+L.BarBackgroundOpacity      = "Bar background opacity"
 
 --Types
 L.BarStartColorAdd			= "Start color (Add)"

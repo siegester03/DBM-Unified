@@ -303,6 +303,7 @@ L.Slider_BarOffSetY 		= "바 간격: %d"
 L.Slider_BarWidth 			= "바 너비: %d"
 L.Slider_BarScale 			= "바 크기: %0.2f"
 L.BarSaturation				= "작은 바 채도 (커다란 바 사용시 비활성): %0.2f"
+L.BarBackgroundOpacity      = "막대 배경 불투명도"
 
 --Types
 L.BarStartColorAdd			= "시작 색상 (쫄)"

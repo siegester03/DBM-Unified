@@ -159,6 +159,7 @@ L.BarSort					= "Sortiere nach verbleibender Zeit"
 L.BarColorByType			= "Färbung nach Typ"
 L.BarInlineIcons			= "Zeichen einbetten"
 L.ShortTimerText			= "Nutze kurzen Timertext (falls verfügbar)"
+L.BarBackgroundOpacity      = "Dekking van de achtergrond van de balk"
 
 -- Tab: Spec Warn Frame
 L.Panel_SpecWarnFrame		= "Spezial Schlachtzug Warnungen"

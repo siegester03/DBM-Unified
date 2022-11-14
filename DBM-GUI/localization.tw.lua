@@ -303,6 +303,7 @@ L.Slider_BarOffSetY 		= "Y偏移:%d"
 L.Slider_BarWidth 			= "寬度:%d"
 L.Slider_BarScale 			= "尺寸:%0.2f"
 L.BarSaturation				= "小型計時條的飽和度 (當大計時條被停用時): %0.2f"
+L.BarBackgroundOpacity      = "條形背景不透明度"
 
 --Types
 L.BarStartColorAdd			= "開始顏色(小怪)"

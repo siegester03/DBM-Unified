@@ -234,10 +234,15 @@ local function resetDBTValueToDefault(slider, option)
 	slider:SetValue(DBT.Options[option])
 end
 
-local FontSizeSlider = BarSetup:CreateSlider(L.FontSize, 7, 18, 1)
+local FontSizeSlider = BarSetup:CreateSlider(L.FontSize, 0, 1, 0.1)
 FontSizeSlider:SetPoint("TOPLEFT", BarSetup.frame, "TOPLEFT", 20, -180)
 FontSizeSlider:SetValue(DBT.Options.FontSize)
 FontSizeSlider:HookScript("OnValueChanged", createDBTOnValueChangedHandler("FontSize"))
+
+local BackgroundOpacitySlider = BarSetup:CreateSlider(L.BarBackgroundOpacity, 7, 18, 1)
+BackgroundOpacitySlider:SetPoint("TOPLEFT", FontSizeSlider, "BOTTOMLEFT", 0, -30)
+BackgroundOpacitySlider:SetValue(DBT.Options.BarBackgroundOpacity)
+BackgroundOpacitySlider:HookScript("OnValueChanged", createDBTOnValueChangedHandler("BarBackgroundOpacity"))
 
 local DisableBarFade = BarSetup:CreateCheckButton(L.NoBarFade, false, nil, nil, "NoBarFade")
 DisableBarFade:SetPoint("TOPLEFT", FontSizeSlider, "BOTTOMLEFT", 0, -85)
